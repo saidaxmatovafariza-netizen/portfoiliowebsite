@@ -13,6 +13,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+
 img {
     display: block;
 }
@@ -40,13 +41,17 @@ a {
     background: linear-gradient(90deg, #e9b990, #dda9de);
     background: linear-gradient(90deg, #685fcf, #8b5d77, #285a5a);
     background-size: 200% 200%;
-    animation: gradientFlow 5s ease infinite; /* 5 soniyada suzib o'tadi */
+    animation: gradientFlow 5s ease infinite;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   
 }
 
 .logo-link {

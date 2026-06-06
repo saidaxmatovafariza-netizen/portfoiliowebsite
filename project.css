@@ -1,6 +1,11 @@
 .projects-hero {
     padding-block: 100px;
 }
+.site-header{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
 
 .project-title {
     font-size: 55px;
